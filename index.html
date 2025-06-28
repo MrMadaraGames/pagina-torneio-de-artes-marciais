@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1º Torneio de Artes Marciais</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/script.js"></script>
+</head>
+<body>
+  <div class="banner">
+    <h1>1º Torneio de Artes Marciais</h1>
+    <p>Administre as batalhas, avance os vencedores e defina o campeão!</p>
+  </div>
+
+  <main class="torneio">
+    <section class="fase fase-1">
+      <h2>Oitavas de Final</h2>
+      <div class="chave">
+        <div class="luta" data-match="1"><button class="btn">Steve</button><button class="btn">Alex</button></div>
+        <div class="luta" data-match="2"><button class="btn">Herobrine</button><button class="btn">Esqueleto</button></div>
+        <div class="luta" data-match="3"><button class="btn">Creeper</button><button class="btn">Ovelha</button></div>
+        <div class="luta" data-match="4"><button class="btn">Enderman</button><button class="btn">Cabra</button></div>
+        <div class="luta" data-match="5"><button class="btn">Villager</button><button class="btn">Wither</button></div>
+        <div class="luta" data-match="6"><button class="btn">Warden</button><button class="btn">Aranha</button></div>
+        <div class="luta" data-match="7"><button class="btn">Zumbi</button><button class="btn">Slime</button></div>
+        <div class="luta" data-match="8"><button class="btn">Pillager</button><button class="btn">Ghast</button></div>
+      </div>
+    </section>
+
+    <section class="fase fase-2">
+      <h2>Quartas de Final</h2>
+      <div class="chave" id="qf"></div>
+    </section>
+
+    <section class="fase fase-3">
+      <h2>Semifinais</h2>
+      <div class="chave" id="sf"></div>
+    </section>
+
+    <section class="fase fase-final">
+      <h2>Final</h2>
+      <div class="chave" id="final"></div>
+      <div class="campeao" id="campeao"></div>
+    </section>
+  </main>
+</body>
+</html>
